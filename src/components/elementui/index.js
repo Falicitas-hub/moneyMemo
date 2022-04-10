@@ -1,6 +1,18 @@
-import { Button, Menu, MenuItem, Icon } from 'element-ui';
+import {
+    Button,
+    Menu,
+    MenuItem,
+    Icon,
+    Tabs,
+    TabPane,
+    Form,
+    FormItem,
+    Select,
+    Option,
+    Input
+} from 'element-ui';
 
-const coms = [Button, Menu, MenuItem, Icon]
+const coms = [Input, Button, Menu, MenuItem, Icon, Tabs, TabPane, Form, FormItem, Select, Option]
 
 export default {
     install(Vue, options) {

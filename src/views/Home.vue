@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-  
     <div class="header">
       <div style="margin-left:30px">
         <h2 style="margin:10px 0 10px 0">首页</h2>
@@ -51,6 +50,7 @@ export default {
   border-radius: 100px;
 }
 .header {
+  border: 0.5px solid #e8e8e8;
   width: 1250px;
   position: relative;
   display: flex;
@@ -71,7 +71,7 @@ export default {
   padding-right: 20px;
 }
 .home {
-  background-color: #f0f2f5;
   height: 100%;
+  width: 1920px;
 }
 </style>
